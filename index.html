@@ -19,7 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <style>
 :root{--ocre:#BB8201;--tinta:#1A1A1A;--salvia:#7D8C6D;--creme:#F2DCA3;
- --bg:#FBF6EA;--fg:#1A1A1A;--muted:#7a7468;--acc:#9A6B00;--line:#E6DCC4;--fs:18px;--lh:1.62}
+ --bg:#FBF6EA;--fg:#1A1A1A;--muted:#7a7468;--acc:#9A6B00;--line:#E6DCC4;--fs:18px;--lh:1.72}
 :root[data-theme="dark"]{--bg:#16130F;--fg:#E8E0CC;--muted:#9a917f;--acc:#D9A23A;--line:#2E2921}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#16130F;--fg:#E8E0CC;--muted:#9a917f;--acc:#D9A23A;--line:#2E2921}}
 *{box-sizing:border-box}
@@ -35,10 +35,10 @@ body{background:var(--bg);color:var(--fg);font-family:Lora,Georgia,"Iowan Old St
 #frame{position:absolute;overflow:hidden}
 #book{height:100%;column-fill:auto;font-size:var(--fs);line-height:var(--lh);transition:transform .28s ease;will-change:transform}
 @media (prefers-reduced-motion:reduce){#book{transition:none}}
-#book p{margin:0;text-align:justify;hyphens:auto;-webkit-hyphens:auto;text-indent:1.4em;orphans:2;widows:2}
+#book p{margin:0 0 .8em;text-align:justify;hyphens:auto;-webkit-hyphens:auto;text-indent:0;orphans:2;widows:2}
 #book p.first,#book p.ap{text-indent:0}
-#book p.ap{margin-bottom:.6em}
-#book .sep{height:1.3em}
+#book p.ap{margin-bottom:1em}
+#book .sep{height:1.4em}
 #book .cap{break-before:column}
 #book header{padding-top:12vh;margin-bottom:2.2em;break-after:avoid}
 #book header p{text-indent:0}
@@ -750,7 +750,7 @@ body{background:var(--bg);color:var(--fg);font-family:Lora,Georgia,"Iowan Old St
 <p class="ap"><b>Mario Vargas Llosa (1936–2025).</b> Pe­ru­a­no, Nobel de Li­te­ra­tu­ra em 2010, apoiou a Re­vo­lu­ção Cubana, rompeu com ela em 1971, can­di­da­tou-se à pre­si­dên­cia do Peru em 1990 e perdeu para Fu­ji­mo­ri. Obras usadas: <i>O Cha­ma­do da Tribo</i> (2018). Epí­lo­go.</p>
 <p class="ap"><b>Robert Nozick (1938–2002).</b> Colega de Rawls em Har­vard, es­cre­veu <i>Anar­quia, Estado e Utopia</i> (1974) como res­pos­ta direta a ele, e depois passou dé­ca­das se re­cu­san­do a ficar preso ao pró­prio livro. Obras usadas: <i>Anar­quia, Estado e Utopia</i> (1974). Ca­pí­tu­lo 4.</p>
 <p class="ap"><b>Lee Ross (1942–2021).</b> Psi­có­lo­go social ca­na­den­se, pro­fes­sor de Stan­ford por cerca de cinco dé­ca­das, onde ajudou a fundar um centro de­di­ca­do ao estudo de con­fli­tos e ne­go­ci­a­ções; par­ti­ci­pou de di­á­lo­gos entre lados rivais na Ir­lan­da do Norte e no Ori­en­te Médio. Cunhou a ex­pres­são “erro fun­da­men­tal de atri­bui­ção” e deu nome ao re­a­lis­mo in­gê­nuo, a ten­dên­cia de tomar a pró­pria visão como ob­je­ti­va e ex­pli­car a dis­cor­dân­cia alheia por ig­no­rân­cia, ir­ra­ci­o­na­li­da­de ou viés. Obras usadas: “Naive re­a­lism in every­day life”, com Andrew Ward (1996); “Ob­jec­ti­vity in the eye of the be­hol­der”, com Emily Pronin e Thomas Gi­lo­vi­ch (2004). Pró­lo­go e epí­lo­go.</p>
-<p class="ap"><i>*Angela Davis (1944–). Nas­ci­da no Ala­ba­ma se­gre­ga­do, aluna de Mar­cu­se, mi­li­tan­te co­mu­nis­ta, presa em 1970 e ab­sol­vi­da em 1972 num jul­ga­men­to que mo­bi­li­zou o mundo. Pro­fes­so­ra na Ca­li­fór­nia. Obras usadas: </i>Mu­lhe­res, Raça e Classe* (1981). Ca­pí­tu­lo 3.</p>
+<p class="ap"><b>Angela Davis (1944–).</b> Nas­ci­da no Ala­ba­ma se­gre­ga­do, aluna de Mar­cu­se, mi­li­tan­te co­mu­nis­ta, presa em 1970 e ab­sol­vi­da em 1972 num jul­ga­men­to que mo­bi­li­zou o mundo. Pro­fes­so­ra na Ca­li­fór­nia. Obras usadas: <i>Mu­lhe­res, Raça e Classe</i> (1981). Ca­pí­tu­lo 3.</p>
 <p class="ap"><b>Roger Scru­ton (1944–2020).</b> Fi­ló­so­fo inglês, filho de um pro­fes­sor, que virou con­ser­va­dor vendo o Maio de 68 em Paris; nos anos 1980 deu aulas clan­des­ti­nas a dis­si­den­tes na Tche­cos­lo­vá­quia. Obras usadas: <i>Como Ser um Con­ser­va­dor</i> (2014); <i>Green Phi­lo­sophy</i> (2012). Ca­pí­tu­los 6, 7 e 10.</p>
 <p class="ap"><b>Thomas Piketty (1971–).</b> Eco­no­mis­ta fran­cês que deu aulas nos Es­ta­dos Unidos aos vinte e poucos anos, voltou para a França e passou duas dé­ca­das mon­tan­do séries his­tó­ri­cas de renda e pa­tri­mô­nio. <i>O Ca­pi­tal no Século XXI</i> (2013) vendeu mi­lhões de exem­pla­res. Obras usadas: <i>O Ca­pi­tal no Século XXI</i> (2013). Ca­pí­tu­los 3 e 4.</p>
 </section>
